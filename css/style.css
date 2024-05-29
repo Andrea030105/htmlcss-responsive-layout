@@ -3,3 +3,58 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.row-header {
+    width: 100%;
+    display: flex;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.col {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header {
+    background-color: #0084FD;
+    height: 80px;
+    color: white;
+}
+
+.col-header {
+    width: calc(100%/2);
+    display: flex;
+    align-items: center;
+    margin: 25px 30px;
+}
+
+.col-header i {
+    font-size: 30px;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.logo {}
+
+.container-blu {
+    background-color: #B5DDFF;
+    height: 300px;
+    width: 300px;
+    border: 2px red solid;
+    border-radius: 10%;
+    margin: 10px;
+}
+
+.bg-purple {
+    background-color: #9792E4;
+    height: 500px;
+    width: 500px;
+}
