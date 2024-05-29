@@ -46,11 +46,15 @@ header {
 
 .container-blu {
     background-color: #B5DDFF;
-    height: 300px;
-    width: 300px;
     border: 2px red solid;
     border-radius: 10%;
     margin: 10px;
+    align-items: center;
+}
+
+.container-blu h1 {
+    color: #0084FD;
+    font-size: 40px;
 }
 
 .bg-purple {
