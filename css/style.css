@@ -46,6 +46,10 @@
     margin: 20px 60px;
 }
 
+.margin-30px {
+    margin: 30px;
+}
+
 .width-70-img {
     width: 70%;
 }
@@ -165,7 +169,42 @@ header {
 
 /* SECTION 3 */
 
-.bg-white {
-    background-color: white;
-    height: 500px;
+.container-text-sec3 {
+    text-align: center;
+}
+
+.container-text-sec3 h3 {
+    text-transform: uppercase;
+}
+
+.container-text-sec3 h1 {
+    line-height: normal;
+    color: #9792E4;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.container-text-sec3 p {
+    font-size: 23px;
+}
+
+/* CARD */
+
+.container-purple {
+    background-color: #9792E4;
+    border-radius: 30px;
+}
+
+.container-img img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.container-purple p {
+    font-size: 20px;
+}
+
+.container-purple h3 {
+    text-transform: uppercase;
 }
