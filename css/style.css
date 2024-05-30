@@ -141,3 +141,31 @@ header {
     font-size: 35px;
     margin-bottom: 20px;
 }
+
+.container-white-bgpurple {
+    background-color: white;
+    margin: 30px 30px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.container-white-bgpurple p {
+    font-size: 15px;
+    margin: 0 25px;
+}
+
+.btn-circle {
+    background-color: #9792E4;
+    border: 1px solid #9792E4;
+    border-radius: 50%;
+    padding: 15px 20px;
+    font-size: 25px;
+    margin: 30px;
+}
+
+/* SECTION 3 */
+
+.bg-white {
+    background-color: white;
+    height: 500px;
+}
