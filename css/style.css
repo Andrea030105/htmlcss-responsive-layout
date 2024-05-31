@@ -19,6 +19,16 @@
     justify-content: center;
 }
 
+.col-flex-start {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.flex-start {
+    justify-content: start;
+}
+
 .flex-end {
     justify-content: flex-end;
 }
@@ -37,8 +47,19 @@
     font-size: 20px;
 }
 
+.btn-lg {
+    width: 300px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+
 .text-center {
     text-align: center;
+}
+
+.text-left {
+    text-align: left;
 }
 
 .margin-top-30px {
@@ -80,6 +101,10 @@
 
 .color-white {
     color: white;
+}
+
+.color-purple {
+    color: #9792E4;
 }
 
 .bold {
@@ -250,4 +275,20 @@ header {
 
 .cards-benefits p {
     font-size: 18px;
+}
+
+/* SECTION5 */
+
+.about-us {
+    font-size: 50px;
+}
+
+.position-img-radius i {
+    position: absolute;
+    left: 250px;
+    color: #9792E4;
+}
+
+.position-img-radius img {
+    position: relative;
 }
