@@ -119,6 +119,12 @@
     justify-content: center;
 }
 
+.container-img-radius img {
+    border-radius: 50%;
+    width: 230px;
+    height: 200px;
+}
+
 .color-white {
     color: white;
 }
@@ -157,6 +163,38 @@ header {
     background-color: #0084FD;
     height: 80px;
     color: white;
+}
+
+/* HAMBUREGER */
+
+.manu {
+    position: relative;
+}
+
+.hamburger {
+    background-color: #0084FD;
+    display: none;
+}
+
+.menu:hover i {
+    transform: rotate(90deg);
+}
+
+.menu:hover .hamburger {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 455px;
+    right: 0px;
+    padding: 10px;
+    line-height: 2;
+    font-size: 22px;
+}
+
+.hamburger a {
+    color: white;
+    text-decoration: none;
 }
 
 /* MAIN */
@@ -253,12 +291,6 @@ header {
     border-radius: 30px;
 }
 
-.container-img img {
-    border-radius: 50%;
-    width: 230px;
-    height: 200px;
-}
-
 .container-purple p {
     font-size: 20px;
 }
@@ -294,8 +326,9 @@ header {
 }
 
 .position-img-radius i {
+    font-size: 70px;
     position: absolute;
-    left: 250px;
+    left: 240px;
     color: #9792E4;
 }
 
@@ -332,7 +365,7 @@ header {
     margin: 12px;
 }
 
-/* section7 */
+/* FOOTER */
 
 .container-text-sec7 p {
     font-size: 14px;
