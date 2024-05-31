@@ -40,6 +40,18 @@
     font-size: 20px;
 }
 
+.btn-purple {
+    background-color: #9792E4;
+    border: 1px solid #9792E4;
+    color: white;
+}
+
+.btn-white {
+    background-color: white;
+    border: 1px solid white;
+    color: #9792E4;
+}
+
 .btn-sm {
     width: 150px;
     border-radius: 20px;
@@ -50,7 +62,7 @@
 .btn-lg {
     width: 300px;
     border-radius: 20px;
-    padding: 10px;
+    padding: 15px;
     font-size: 20px;
 }
 
@@ -257,12 +269,6 @@ header {
     font-size: 30px;
 }
 
-.btn-purple {
-    background-color: #9792E4;
-    border: 1px solid #9792E4;
-    color: white;
-}
-
 .cards-benefits h1 {
     font-size: 55px;
     color: #9792E4;
@@ -291,4 +297,31 @@ header {
 
 .position-img-radius img {
     position: relative;
+}
+
+/* SECTION6 */
+
+.container-text-sec6 h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.container-text-sec6 h2 {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.container-text-sec6 h1 {
+    color: #FDC15F;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.container-text-sec6 li {
+    display: flex;
+    font-size: 12px;
+}
+
+.container-text-sec6 ul {
+    padding-left: 5px;
 }
